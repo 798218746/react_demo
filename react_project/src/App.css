@@ -1,28 +1,51 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+html {
+	font-size: 62.5%;
+	/*10 ÷ 16 × 100% = 62.5%*/
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+body {
+	color: #666666;
+	background-color: #FFFFFF;
+	font-family: "微软雅黑" "arial, helvetica, sans-serif" "blackadder itc";
+	font-size: 1.6rem;
+	/*1.4 × 10px = 14px */
 }
 
-.App-title {
-  font-size: 1.5em;
+h1 {
+	font-size: 2.4rem;
+	/*2.4 × 10px = 24px*/
 }
 
-.App-intro {
-  font-size: large;
+a {
+	text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+ul,li {
+	list-style: none;
+}
+p,div{margin: 0;padding: 0;}
+
+
+/*清除浮动代码*/
+.clearfix:after {
+	content: ".";
+	/*加一段内容*/
+	display: block;
+	/*让生成的元素以块级元素显示，占满剩余空间*/
+	height: 0;
+	/*避免生成的内容破坏原有布局高度*/
+	clear: both;
+	/*清除浮动*/
+	visibility: hidden;
+	/*让生成的内容不可见*/
+}
+
+.clearfix {
+	zoom: 1;
+	/*为IE6，7的兼容性设置*/
 }
