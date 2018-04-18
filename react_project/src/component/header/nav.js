@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Nav extends React.Component {
+class Nav extends Component {
 	constructor(){
 		super();
 		this.state = {
@@ -11,14 +11,12 @@ class Nav extends React.Component {
 	}
 	funct(){
 		var self = this;
-		console.log('6666666');
+		console.log('8888');
 	}
-	
     render() {
        return (
         	<div>
-	        	<button onClick={this.funct}>{this.state.btnName}</button>
-        		<div>{this.state.arr}</div>
+	        	<div onClick={this.funct}>{this.state.btnName}</div>
         	</div>
         );
     }
