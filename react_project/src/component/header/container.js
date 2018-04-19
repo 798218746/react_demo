@@ -6,20 +6,9 @@ const element = React.createElement(
 	{className:'ele ele_box'},
 	'你好'
 );
-
-//一个方法
-(function tick(){
-	const item = (
-		<div>
-			<p>It is {new Date().toLocaleDateString()}</p>
-		</div>,document.getElementsByClassName('tickClock')
-	);
-	console.log('66666');
-})();
-
 class Container extends Component {
-	constructor(props){
-		super(props);
+	constructor(){
+		super();
 		this.state = {
 			content:'确认'
 		};

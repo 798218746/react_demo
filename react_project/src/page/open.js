@@ -8,7 +8,8 @@ import '../css/open.css';
 import Header from '../component/header/header';
 import Nav from '../component/header/nav';
 import Container from '../component/header/container';
-
+import Zujian from '../component/header/gouchengzujian';
+import Tiquzujian from '../component/header/tiquzujian';
 
 class Open extends Component {
     render() {
@@ -17,6 +18,8 @@ class Open extends Component {
                 <Header />
                 <Nav />
                 <Container />
+                <Zujian />
+                <Tiquzujian />
             </div>
         );
     }

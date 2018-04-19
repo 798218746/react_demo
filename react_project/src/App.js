@@ -4,8 +4,8 @@ import './App.css';
 
 //引入组件
 import Open from './page/open';
-import 'antd';
-import { Button } from 'antd';
+//import 'antd';
+//import { Button } from 'antd';
 class App extends Component {
   render() {
     return (
