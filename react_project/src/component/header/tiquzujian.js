@@ -18,11 +18,11 @@ function format(date){
 function Comment(props){
 	return(
 		<div className ='userInfo'>
-			<img className='pic_box' 
+			<div>{props.text}</div>
+			<img className='pic_box'
 				src={props.author.authUrl}
 				alt={props.author.name} />
 			<div>{props.author.name}</div>
-			<div>{props.text}</div>
 			<div>{format(props.date)}</div>
 		</div>
 	)
@@ -38,6 +38,3 @@ class Tiquzujian extends Component {
 	}
 }
 export default Tiquzujian;
-
-
-

@@ -10,7 +10,7 @@ class Nav extends Component {
 		this.funct = this.funct.bind(this);
 	}
 	funct(){
-		var self = this;
+//		var self = this;
 		console.log('8888');
 	}
     render() {
