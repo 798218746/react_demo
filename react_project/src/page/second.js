@@ -6,6 +6,11 @@ import '../css/open.css';
 //引入组件
 import Mounted from '../component/main/mounted';
 import AddLocalState from '../component/main/addLocalState';
+import Toggle from '../component/main/btnEvent';
+import Tiaojian from '../component/main/tiaojian';
+import Yuansubianliang from '../component/main/yuansubianliang';
+
+
 
 class Second extends Component {
     render() {
@@ -13,6 +18,9 @@ class Second extends Component {
             <div>
                 <AddLocalState />
                 <Mounted />
+                <Toggle />
+                <Tiaojian />
+                <Yuansubianliang />
             </div>
         );
     }

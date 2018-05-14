@@ -1,6 +1,6 @@
 import React from 'react';
 
-let name = 'mounting 生命周期挂在与取消';
+let name = '生命周期挂在与取消,数据自顶向下流动';
 
 class Mounted extends React.Component{
 	constructor(props){
