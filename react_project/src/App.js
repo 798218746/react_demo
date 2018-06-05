@@ -4,7 +4,8 @@ import './App.css';
 
 //引入组件
 import Open from './page/open';
-import Second from './page/second'
+import Second from './page/second';
+import Third from './page/third';
 //import 'antd';
 //import { Button } from 'antd';
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="App">
          <Open />
          <Second />
+         <Third />
       </div>
     );
   }

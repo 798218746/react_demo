@@ -9,8 +9,8 @@ import AddLocalState from '../component/main/addLocalState';
 import Toggle from '../component/main/btnEvent';
 import Tiaojian from '../component/main/tiaojian';
 import Yuansubianliang from '../component/main/yuansubianliang';
-
-
+import HasState from '../component/main/hasState';
+import Luojifu from '../component/main/tiaojianluojifu';
 
 class Second extends Component {
     render() {
@@ -21,6 +21,8 @@ class Second extends Component {
                 <Toggle />
                 <Tiaojian />
                 <Yuansubianliang />
+                <HasState />
+                <Luojifu />
             </div>
         );
     }

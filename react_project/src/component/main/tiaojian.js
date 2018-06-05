@@ -25,7 +25,7 @@ class Tiaojian extends React.Component{
 	render(){
 		return(
 			<div>
-				<p>条件渲染</p>
+				<p>条件渲染--用变量来存储元素</p>
 				<Greeting isLoggedIn={false} />
 			</div>
 		)
